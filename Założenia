@@ -1,1 +1,23 @@
 Założenia:
+CLIENT_SENDING> send_photo:user_name(spacja)Jakiś_format_i_dane
+SERVER_SENDING> msg(spacja)Odebrano zdjęcie....
+
+CLIENT_SENDING> show_photos:user_name
+SERVER_SENDING> photo(spacja)Zdjęcie1...
+10ms
+SERVER_SENDING> photo(spacja)Zdjęcie2...
+10ms
+SERVER_SENDING> photo(spacja)Zdjęcie3...
+10ms
+
+
+CLIENT_SENDING> show_photos_file_size:username:from(bytes):to(bytes)
+SERVER_SENDING> photo(spacja)Zdjęcie1...
+10ms
+SERVER_SENDING> photo(spacja)Zdjęcie2...
+10ms
+SERVER_SENDING> photo(spacja)Zdjęcie3...
+10ms
+
+
+
