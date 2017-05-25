@@ -1,0 +1,26 @@
+CLIENT_SENDING> send_photo:user_name(spacja)Jakiœ_format_i_dane
+SERVER_SENDING> msg(spacja)Odebrano zdjêcie....
+
+CLIENT_SENDING> show_photos:user_name
+SERVER_SENDING> photo(spacja)Zdjêcie1...
+10ms
+SERVER_SENDING> photo(spacja)Zdjêcie2...
+10ms
+SERVER_SENDING> photo(spacja)Zdjêcie3...
+10ms
+
+
+CLIENT_SENDING> show_photos_file_size:username:from(bytes):to(bytes)
+SERVER_SENDING> photo(spacja)Zdjêcie1...
+10ms
+SERVER_SENDING> photo(spacja)Zdjêcie2...
+10ms
+SERVER_SENDING> photo(spacja)Zdjêcie3...
+10ms
+
+https://docs.microsoft.com/en-us/aspnet/web-api/overview/older-versions/build-restful-apis-with-aspnet-web-api
+https://www.google.pl/search?q=wcf+wsdl+service+%2Fnet&oq=wcf+wsdl+service+%2Fnet&aqs=chrome..69i57j0l5.15665j0j7&sourceid=chrome&ie=UTF-8
+
+
+
+
